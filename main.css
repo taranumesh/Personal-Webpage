@@ -1,0 +1,270 @@
+/* NAVIGATION BAR*/
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFF;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+nav li {
+	display: block;
+	float: right;
+
+}
+
+nav li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ffcc00;
+    color: #FFF;
+}
+
+
+/*GENERAL BODY*/
+
+.body {
+	height: 100vh;
+	width: 100vw;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+h1, h2, h3, h4, ul {
+	font-family:'Montserrat', sans-serif;
+}
+
+p {
+	font-family: 'Bitter', serif;
+}
+
+a:visited {
+	color: #000;
+}
+
+/*TOP TITLE*/
+
+#top {
+	height: 100vh;
+	overflow: hidden;
+}
+
+#top img {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#top div {
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+ }
+
+#top h1 {
+	color: #ffcc00;
+	font-size: 6em;
+	margin: auto;
+
+}
+
+#top h2 {
+	color: #FFF;
+	font-size: 2.5em;
+}
+
+/*ABOUT ME*/
+#bodyAbout {
+	text-align: center;
+	position:relative;
+
+}
+#bodyAbout img {
+	height: 100vh;
+	float: left;
+	position: relative;
+	z-index: 1;
+}
+
+#bodyAbout div {
+	width: 40vw;
+	position: absolute;
+	font-size: 1.75em;
+	padding: 40px 15vw 40px 45vw;
+	margin-top: 10vh;
+	line-height: 50px;
+}
+
+
+/*SKILLS*/
+
+.block {
+	float: left;
+	width: 33.3%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+#bodySkills img {
+	height: 33%;
+	display: block;
+	margin: auto;
+	margin-top: 10vh;
+/*	background-color: #ffcc00;*/
+/*	padding: 10px;*/
+}
+
+#bodySkills h4 {
+	font-size: 2em;
+	text-align: center;
+}
+
+#bodySkills li {
+	font-size: 1em;
+	line-height: 3em;
+	float: left;
+	display: inline;
+	width: 44%;
+}
+
+.left {
+	text-align: right;
+	padding-right: 5%;
+
+}
+
+.right {
+	text-align: left;
+	padding-left: 5%;
+}
+
+.line {
+	width: 16.16%;
+	height: 30%;
+	position: absolute;
+	border-right: solid 1px black;
+	float: left;
+	overflow: hidden;
+}
+
+/*EXPERIENCE*/
+
+#bodyExperience {
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+
+#bodyExperience h2 {
+	text-align: center;
+	font-size: 2em;
+}
+
+#bodyExperience p {
+	text-align: justify;
+	padding: 5%;
+	font-size: 1.25em;
+	line-height: 1.5em;
+}
+
+#bodyExperience img {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#bodyExperience div {
+	width: 50%;
+	margin: 10% 25%;
+	top: 0;
+	padding: 0;
+	position: absolute;
+	text-align: center;
+	background-color: #FFF;
+ }
+
+ #bodyExperience span {
+ 	font-weight: 600;
+/* 	color: #FFF;
+ 	background-color: #ffcc00;*/
+ }
+
+/*ART*/
+
+#bodyArt h2{
+	font-size: 4em;
+	text-align: center;
+}
+
+.artText {
+	font-size: 2em;
+	text-align: center;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	display: inline-block;
+	left: 50%;
+    margin-right: -50%;
+    margin-top: 10vh;
+    transform: translate(-50%, -50%);
+}
+
+#bodyArt img {
+	width: 50%;
+	display: block;
+	margin: auto;
+	margin-top: 10vh;
+}
+
+#bodyArt div {
+	height: 75vh;
+}
+
+#bodyArt div:hover .artText{
+	background-color: #ffcc00;
+	color: #fff;
+}
+
+/*FOOTER*/
+
+#foot {
+	background-color: #ffcc00;
+	height: 20vh;
+}
+
+
+#foot img {
+	width: 5vw;
+	display: inline;
+	float: left;
+	padding: 5vh 10vw;
+}
+#foot div {
+	width: 75vw;
+	margin:auto;
+}
+
+
+@media (min-width: 200px) {
+	li {
+		font-size: 0.5em;
+	}
+}
+
