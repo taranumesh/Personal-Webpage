@@ -225,10 +225,9 @@ a:visited {
 }
 
 #bodyArt img {
-	width: 50%;
+	width: 40%;
 	display: block;
 	margin: auto;
-	margin-top: 10vh;
 }
 
 #bodyArt div {
@@ -240,11 +239,16 @@ a:visited {
 	color: #fff;
 }
 
+#bodyArt .block {
+	height: 50vh;
+}
+
 /*FOOTER*/
 
 #foot {
 	background-color: #ffcc00;
-	height: 20vh;
+	height: 25vh;
+	width: 100vw;
 }
 
 
@@ -260,9 +264,9 @@ a:visited {
 }
 
 
-@media (min-width: 200px) {
+/*@media (min-width: 200px) {
 	li {
 		font-size: 0.5em;
 	}
-}
+}*/
 
